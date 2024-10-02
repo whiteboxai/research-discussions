@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhiteBox-AI Research Talks</title>
+    <title>WhiteBox-AI Research Discussions</title>
     <style>
       body {
         font-family: Arial, sans-serif;
@@ -12,22 +12,18 @@
         padding: 0;
         text-align: center;
       }
-      header {
-        background-color: #ffffff;
+      header, .content, footer {
+        max-width: 800px;
+        margin: 0 auto;
         padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
       header img {
         width: 150px;
       }
-      h1 {
+      h1, h2 {
         color: #333333;
-      }
-      .content {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #ffffff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
       table {
         width: 100%;
@@ -50,50 +46,98 @@
       tr:hover {
         background-color: #f1f1f1;
       }
-      footer {
+      .schedule, .contact-info {
+        text-align: left;
+        margin-bottom: 20px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
         margin-top: 20px;
-        color: #777777;
+      }
+      input[type="email"], input[type="submit"] {
+        padding: 10px;
+        width: 100%;
+        max-width: 300px;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
       }
     </style>
   </head>
   <body>
     <header>
       <img src="white-box.png" alt="WhiteBox-AI Logo">
+      <h1>WhiteBox-AI Research Discussions</h1>
     </header>
-    <h1>Welcome to the Research Discussions of the WhiteBox-AI group. !!!This page is under construction and information is not correct yet!!!</h1>
     <div class="content">
-      <p>Join us for our upcoming research talks. All talks are scheduled for Mondays at 14:30 during the winter semester.</p>
+      <p>Join us for our bi-weekly research discussions. All talks are scheduled for Fridays from 14:00 to 15:00, starting from October 25, 2024, and ending in February 2025.</p>
+      
+      <h2>Discussion Format</h2>
+      <div class="schedule">
+        <p>Each session follows this schedule:</p>
+        <ul>
+          <li>14:00 - 14:10: Ice-breaker (Discussion of current hot research topics)</li>
+          <li>14:10 - 14:40: Research Presentation</li>
+          <li>14:40 - 15:00: Q&A / Open Discussion</li>
+        </ul>
+      </div>
+
+      <h2>Upcoming Sessions</h2>
       <table>
         <thead>
           <tr>
             <th>Date</th>
             <th>Topic</th>
-            <th>Presenter</th>
+            <th>Speaker</th>
+            <th>Slides</th>
           </tr>
         </thead>
         <tbody>
-          <!-- Insert 15 rows here, one for each session -->
-          <tr><td>October 14, 2024</td><td>Introduction to White-Box AI</td><td>Dr. Alice Smith</td></tr>
-          <tr><td>October 21, 2024</td><td>Explainable AI Techniques</td><td>Prof. John Doe</td></tr>
-          <tr><td>October 28, 2024</td><td>Transparency in Machine Learning</td><td>Dr. Jane Roe</td></tr>
-          <tr><td>November 4, 2024</td><td>Interpretability in AI Models</td><td>Dr. Bob Brown</td></tr>
-          <tr><td>November 11, 2024</td><td>White-Box AI in Healthcare</td><td>Dr. Carol White</td></tr>
-          <tr><td>November 18, 2024</td><td>AI and Ethical Considerations</td><td>Dr. Eve Black</td></tr>
-          <tr><td>November 25, 2024</td><td>Regulations and AI Transparency</td><td>Prof. David Green</td></tr>
-          <tr><td>December 2, 2024</td><td>Case Studies in White-Box AI</td><td>Dr. Alice Smith</td></tr>
-          <tr><td>December 9, 2024</td><td>AI Transparency in Autonomous Systems</td><td>Dr. John Blue</td></tr>
-          <tr><td>December 16, 2024</td><td>Future of White-Box AI</td><td>Prof. Jane Red</td></tr>
-          <tr><td>January 6, 2025</td><td>AI in Finance: Transparency Matters</td><td>Dr. Alan Grey</td></tr>
-          <tr><td>January 13, 2025</td><td>Transparency in AI Research</td><td>Dr. Betty Violet</td></tr>
-          <tr><td>January 20, 2025</td><td>Interpreting Neural Networks</td><td>Dr. Steve Orange</td></tr>
-          <tr><td>January 27, 2025</td><td>Explainability in Deep Learning</td><td>Prof. Mary Yellow</td></tr>
-          <tr><td>February 3, 2025</td><td>Transparent AI Algorithms</td><td>Dr. Rob Brown</td></tr>
+          <tr>
+            <td>October 25, 2024</td>
+            <td>ML in general</td>
+            <td>Dr. A. Researcher</td>
+            <td><a href="https://github.com/WhiteBox-AI/research-discussions/blob/main/slides/2024-10-25-ml-general.pdf" target="_blank">View Slides</a></td>
+          </tr>
+          <tr>
+            <td>November 8, 2024</td>
+            <td>Deep Learning and Neural Networks</td>
+            <td>Prof. B. Expert</td>
+            <td><a href="https://github.com/WhiteBox-AI/research-discussions/blob/main/slides/2024-11-08-deep-learning.pdf" target="_blank">View Slides</a></td>
+          </tr>
+          <!-- Add more rows with similar structure -->
         </tbody>
       </table>
+      
+      <p>Topics cover a wide range of AI and ML subjects. Specific details about speakers may be updated closer to the date of each session.</p>
+
+      <h2>Sign up for Updates</h2>
+      <p>To receive news and the Zoom link for our discussions, please sign up using the form below:</p>
+      <form action="https://formspree.io/f/your-formspree-endpoint" method="POST">
+        <input type="email" name="email" placeholder="Your email address" required>
+        <input type="submit" value="Sign Up">
+      </form>
+
+      <h2>Past Discussions</h2>
+      <p>Interested in our previous research discussions? Check out our <a href="past-discussions.html">archive of past talks and slides</a>.</p>
+
+      <h2>Contact Information</h2>
+      <div class="contact-info">
+        <p>Organizer: Julian Rosenberger</p>
+        <p>Email: <a href="mailto:julian.rosenberger@ur.de">julian.rosenberger@ur.de</a></p>
+      </div>
     </div>
     <footer>
       <p>&copy; 2024 WhiteBox-AI Group. All rights reserved.</p>
     </footer>
   </body>
 </html>
-
