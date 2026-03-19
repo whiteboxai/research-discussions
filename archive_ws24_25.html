@@ -3,202 +3,142 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WhiteBox-AI Research Discussions</title>
+    <title>WhiteBox-AI Research Discussions - Winter Term 2024/2025 (Archive)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
       body {
-        font-family: Arial, sans-serif;
-        background-color: #f9f9f9;
-        margin: 0;
-        padding: 0;
-        color: #333333;
-      }
-      header {
-        background-color: #ffffff;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      header img {
-        width: 100px;
-        margin-right: 20px;
-      }
-      header h1 {
-        margin: 0;
-        font-size: 24px;
-      }
-      .content {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        background-color: #ffffff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      h2 {
-        color: #333333;
-      }
-      table {
-        width: 100%;
-        border-collapse: collapse;
-        margin: 20px 0;
-      }
-      table, th, td {
-        border: 1px solid #dddddd;
-      }
-      th, td {
-        padding: 12px;
-        text-align: left;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-      tr:nth-child(even) {
-        background-color: #f9f9f9;
-      }
-      tr:hover {
-        background-color: #f1f1f1;
-      }
-      .info-box {
-        background-color: #e7f3fe;
-        border-left: 6px solid #2196F3;
-        margin-bottom: 15px;
-        padding: 20px;
-        border-radius: 5px;
-      }
-      .button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #e7f3fe;
-        color: black;
-        text-decoration: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
-      }
-      .button:hover {
-        background-color: #2196F3;
-        color: white;
-      }
-      footer {
-        margin-top: 20px;
-        color: #777777;
-        text-align: center;
-      }
-      .past-presentations {
-        margin-top: 30px;
-        padding: 15px;
-        background-color: #f0f0f0;
-        border-radius: 5px;
+        font-family: 'Inter', sans-serif;
+        background-color: #f8fafc;
       }
     </style>
   </head>
-  <body>
-    <header>
-      <img src="assets/images/white-box.png" alt="WhiteBox-AI Logo">
-      <h1>Welcome to the Research Discussions of the WhiteBox-AI Group!</h1>
+  <body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-sm">
+      <div class="container mx-auto px-4 py-5 flex items-center justify-center sm:justify-start">
+        <img
+            src="assets/images/white-box.png"
+            alt="WhiteBox-AI Logo"
+            class="h-16 w-16 mr-4 rounded"
+            onerror="this.src='https://placehold.co/100x100/e2e8f0/334155?text=Logo'; this.onerror=null;"
+         >
+        <h1 class="text-xl sm:text-2xl font-semibold text-gray-700 text-center sm:text-left">
+          WhiteBox-AI Research Discussions <span class="block sm:inline text-base font-normal text-gray-500">Winter Term 2024/2025 (Archive)</span>
+        </h1>
+      </div>
     </header>
-    <div class="content">
-      <div class="info-box">
-        <p>Join us for our bi-weekly research discussions. All talks are scheduled for Fridays from 14:00 to 15:00, starting from October 25, 2024, and ending in January 2025.</p>
+
+    <main class="container mx-auto px-4 py-8">
+      <div class="max-w-4xl mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-md">
+
+        <div class="mb-4">
+          <a href="index.html" class="text-blue-600 hover:text-blue-800 hover:underline text-sm">&larr; Back to main page</a>
+        </div>
+
+        <div class="bg-gray-100 border-l-4 border-gray-400 text-gray-700 p-4 mb-6 rounded-r-md">
+          <p class="font-medium">Archive</p>
+          <p>This page documents the bi-weekly research discussions held during the Winter Term 2024/2025. Sessions took place on <strong class="font-semibold">Fridays from 14:00 to 15:00</strong>, from October 2024 to January 2025.</p>
+        </div>
+
+        <div class="mb-8">
+          <h2 class="text-2xl font-semibold text-gray-700 mb-3">Discussion Format</h2>
+          <p class="text-gray-600 mb-2">Each session followed this schedule:</p>
+          <ul class="list-disc list-inside text-gray-600 space-y-1">
+            <li><strong>14:00 - 14:10:</strong> Ice-breaker (Discussion of current hot research topics)</li>
+            <li><strong>14:10 - 14:40:</strong> Research Presentation</li>
+            <li><strong>14:40 - 15:00:</strong> Q&A / Open Discussion</li>
+          </ul>
+        </div>
+
+        <div class="mb-8">
+          <h2 class="text-2xl font-semibold text-gray-700 mb-4">Sessions - Winter Term 2024/2025</h2>
+          <div class="rounded-lg border border-gray-200">
+            <table class="min-w-full divide-y divide-gray-200 table-auto">
+              <thead class="bg-gray-100">
+                <tr>
+                  <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/6">Date</th>
+                  <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-2/5">Topic</th>
+                  <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">Speaker</th>
+                  <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider w-1/5">Slides</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-gray-200">
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">October 25, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Making Local Interpretable Model-Agnostic Explanations (LIME) more flexible with the help of Generalized Additive Models (GAMs)</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Benedikt Schuster</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_25102024.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">November 8, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Disentanglement of Style from Content in Textual Data</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Michelle Fribance</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_08112024.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">November 22, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Combined use of cluster-then-predict methods for the interpretable prediction of property prices</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Paul G&uuml;mmer</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_22112024.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">December 6, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">ML-based Intensive Care Unit Transfer Decision Support</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Daniel Z&auml;hringer</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_06122024.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">December 13, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">The Effect of XAI-based Decision Support on Human Task Performance: A Meta-Analysis</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Felix Haag</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_13122024.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">December 20, 2024</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Happy Holidays!</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">N/A</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">No session</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">January 3, 2025</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Happy New Year!</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">N/A</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">No session</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">January 24, 2025</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">SHAP Explanations</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Mathias Kraus</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_24012025.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="px-6 py-4 text-sm font-medium text-gray-900 align-top">January 31, 2025</td>
+                  <td class="px-6 py-4 text-sm text-gray-600 align-top">Exploring Generalizability of Time Series Classification Models for Predicting Mortality in Intensive Care Units</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top">Tobias V&ouml;lkel</td>
+                  <td class="px-6 py-4 text-sm text-gray-500 align-top"><a href="slides/24_25/Research_Presentation_31012025.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 hover:underline">Slides (PDF)</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="mb-8">
+          <h2 class="text-2xl font-semibold text-gray-700 mb-3">Additional Information</h2>
+          <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm">
+            <li><strong>Location:</strong> Online via Zoom</li>
+            <li><strong>Recordings/Slides:</strong> Presentation slides (where provided by speakers) are linked in the schedule table above.</li>
+          </ul>
+        </div>
+
       </div>
+    </main>
 
-      <h2>Discussion Format</h2>
-      <div>
-        <p>Each session follows this schedule:</p>
-        <ul>
-          <li><strong>14:00 - 14:10:</strong> Ice-breaker (Discussion of current hot research topics)</li>
-          <li><strong>14:10 - 14:40:</strong> Research Presentation</li>
-          <li><strong>14:40 - 15:00:</strong> Q&A / Open Discussion</li>
-        </ul>
-      </div>
-
-      <h2>Upcoming Sessions</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Topic</th>
-            <th>Speaker</th>
-            <th>Slides</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>October 25, 2024</td>
-            <td>Making Local Interpretable Model-Agnostic Explanations (LIME) more flexible with the help of Generalized Additive Models (GAMs)</td>
-            <td>Benedikt Schuster</td>
-            <td><a href="slides/24_25/Research_Presentation_25102024.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>November 8, 2024</td>
-            <td>Disentanglement of Style from Content in Textual Data</td>
-            <td>Michelle Fribance</td>
-            <td><a href="slides/24_25/Research_Presentation_08112024.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>November 22, 2024</td>
-            <td>Combined use of cluster-then-predict methods for the interpretable prediction of property prices</td>
-            <td>Paul Gümmer</td>
-            <td><a href="slides/24_25/Research_Presentation_22112024.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>December 6, 2024</td>
-            <td>ML-based Intensive Care Unit Transfer Decision Support</td>
-            <td>Daniel Zähringer</td>
-            <td><a href="slides/24_25/Research_Presentation_06122024.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>December 13, 2024</td>
-            <td>The Effect of XAI-based Decision Support on Human Task Performance: A Meta-Analysis</td>
-            <td>Felix Haag</td>
-            <td><a href="slides/24_25/Research_Presentation_13122024.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>December 20, 2024</td>
-            <td>Happy Holidays! 🎄</td>
-            <td>N/A</td>
-            <td>No session</td>
-          </tr>
-          <tr>
-            <td>January 3, 2025</td>
-            <td>Happy New Year! ⭐️</td>
-            <td>N/A</td>
-            <td>No session</td>
-          </tr>
-          <tr>
-            <td>January 24, 2025</td>
-            <td>SHAP Explanations</td>
-            <td>Mathias Kraus</td>
-            <td><a href="slides/24_25/Research_Presentation_24012025.pdf" target="_blank">View PDF</a></td>
-          </tr>
-          <tr>
-            <td>January 31, 2025</td>
-            <td>Exploring Generalizability of Time Series Classification Models for Predicting Mortality in Intensive Care Units</td>
-            <td>Tobias Völkel</td>
-            <td><a href="slides/24_25/Research_Presentation_31012025.pdf" target="_blank">View PDF</a></td>
-          </tr>
-        </tbody>
-      </table>
-      
-      <p>Topics cover a wide range of AI and ML subjects. Speakers will be announced as they are confirmed.</p>
-
-      <h2>Join Our Mailing List</h2>
-      <p>Stay informed about upcoming sessions, receive Zoom links, and get updates on any changes to the schedule by joining our mailing list.</p>
-      <a href="mailto:julian.rosenberger@ur.de?subject=Join WhiteBox-AI Research Discussions Mailing List&body=Hi Julian,%0D%0A%0D%0AI would like to join the mailing list for the WhiteBox-AI Research Discussions.%0D%0A%0D%0AName: [Your Name]%0D%0AEmail: [Your Email]%0D%0AInstitution/Company: [Your Institution/Company]%0D%0A%0D%0AThank you,%0D%0A[Your Name]" class="button">Join Mailing List</a>
-
-      <h2>Additional Information</h2>
-      <ul>
-        <li><strong>Location:</strong> Online via Zoom (link will be provided to mailing list subscribers)</li>
-        <li><strong>Participation:</strong> All sessions are open to mailing list subscribers</li>
-        <li><strong>Get Involved:</strong> If you're interested in presenting your research, <a href="mailto:julian.rosenberger@ur.de?subject=Interest in Presenting at WhiteBox-AI Research Discussions&body=Hi Julian,%0D%0A%0D%0AI am interested in presenting my research at an upcoming WhiteBox-AI Research Discussion.%0D%0A%0D%0AName: [Your Name]%0D%0AEmail: [Your Email]%0D%0AInstitution/Company: [Your Institution/Company]%0D%0A%0D%0ABrief description of proposed topic:%0D%0A[Please provide a short description of your research topic and its relevance to AI/ML]%0D%0A%0D%0APreferred presentation date(s), if any:%0D%0A[Optional: List any dates from the schedule that would work well for you]%0D%0A%0D%0AThank you for considering my proposal. I look forward to hearing from you.%0D%0A%0D%0ABest regards,%0D%0A[Your Name]">get in touch</a></li>
-    </ul>
-
-      <div class="past-presentations">
-        <h2>Past Presentations</h2>
-        <p>Slides from past presentations will be made available here soon. Stay tuned for updates!</p>
-      </div>
-    </div>
-    <footer>
-      <p>&copy; 2024 WhiteBox-AI Group. All rights reserved.</p>
+    <footer class="text-center py-6 mt-8">
+      <p class="text-sm text-gray-500">&copy; 2025-2026 WhiteBox-AI Group. All rights reserved.</p>
     </footer>
+
   </body>
 </html>
